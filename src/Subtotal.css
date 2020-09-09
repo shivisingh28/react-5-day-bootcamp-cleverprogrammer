@@ -1,12 +1,10 @@
-.subtotal {
+/*.subtotal {
     margin-left: 50px;
-  }
+  }*/
   
-  .subtotal__head > img {
-    margin-bottom: 20px;
-  }
   
-  .subtotal__body {
+  
+  .subtotal {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -27,7 +25,7 @@
     margin-right: 5px;
   }
   
-  .subtotal__body > button {
+  .subtotal > button {
     background-color: #f0c14b;
     border-radius: 2px;
     width: 100%;

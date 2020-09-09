@@ -13,22 +13,20 @@ function Checkout() {
                 />
                 <div>
                     <h2 className="checkout__title">
-                        Your Shopping Basket
+                        Your Shopping Basket</h2>
+                         {/* BasketItme */}
                         {/* BasketItme */}
                         {/* BasketItme */}
                         {/* BasketItme */}
-                        {/* BasketItme */}
-
-                    </h2>
                 </div>
+                </div >
 
                 <div className="checkout__right">
-                    <h2>The subtotal will go here</h2>
-                    <Subtotal />
+                     <Subtotal />
                 </div>
             </div>
 
-        </div >
+       
     );
 }
 
