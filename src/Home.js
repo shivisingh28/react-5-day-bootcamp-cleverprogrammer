@@ -25,6 +25,13 @@ function Home() {
                     image="https://images-na.ssl-images-amazon.com/images/I/61pTU2C19DL._AC_SL1300_.jpg"
                     rating={3}
                     />
+                    <Product
+                    id="1119578889"
+                    title="Mi Notebook Horizon Edition 14 Intel Core i7-10510U 10th Gen Thin and Light Laptop(8GB/512GB SSD/Windows 10/Nvidia MX350 2GB Graphics/Grey/1.35Kg), XMA1904-AF+Webcam"
+                    price={449.67}
+                    image="https://images-na.ssl-images-amazon.com/images/I/712rw0zcH8L._SL1500_.jpg"
+                    rating={5}
+                    />
 
                 </div>
                 <div className="home__row">
@@ -50,6 +57,14 @@ function Home() {
                     rating={5}
                     />
 
+                    <Product
+                    id="5674447899"
+                    title="pTron Bassbuds in-Ear True Wireless Bluetooth Headphones (TWS) with Mic - (Black)"
+                    price={129.9}
+                    image="https://images-na.ssl-images-amazon.com/images/I/51jGCELP5zL._SL1100_.jpg"
+                    rating={4}
+                    />
+
                 </div>
                 <div className="home__row">
                 <Product 
@@ -61,12 +76,21 @@ function Home() {
 
                 />
                 <Product
-               id="12311213"
+                id="12311213"
                 title="iOttie Easy One Touch 4 Dash & Windshield Car Mount Phone Holder Desk Stand Pad & Mat for iPhone, Samsung, Moto, Huawei, Nokia, LG, Smartphones"
                 price={56.63}
                 image="https://m.media-amazon.com/images/I/718NVofDrCL._AC_UY218_.jpg"
                 rating={4}
                   />
+                  <Product
+                id="1231156799"
+                title="Leadership Is Language: The Hidden Power of What You Say and What You Don't Kindle Edition"
+                price={20.63}
+                image="https://d2t3xdwbh1v8qy.cloudfront.net/content/B07KMQ6CVW/resources/256404794"
+                rating={5}
+                  />
+                  
+                  
 
                  </div>
             </div>

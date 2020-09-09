@@ -2,11 +2,12 @@ import React from 'react';
 import './Product.css';
 import StarIcon from '@material-ui/icons/Star';
 import {useStateValue} from './StateProvider';
+import Subtotal from './Subtotal';
 
 
 function Product( {id,title,image,price,rating}) {
     const[{basket},dispatch] =useStateValue();
-    console.log("this is the basket >>>",basket)
+    //console.log("this is the basket >>>",basket)
 
     const addToBasket = () => {
         //dispacth the itme into the data layer
